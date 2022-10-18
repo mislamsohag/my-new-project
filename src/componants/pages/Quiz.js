@@ -1,5 +1,6 @@
 import Answers from '../Answers';
 import ProgressBar from '../ProgressBar';
+import MiniPlayer from '../MiniPlayer';
 
 export default function Quiz() {
     return (
@@ -8,7 +9,7 @@ export default function Quiz() {
             <h4>Question can have multiple answers</h4>
             <Answers />
             <ProgressBar />
-
+            <MiniPlayer />
         </>
     );
 }
