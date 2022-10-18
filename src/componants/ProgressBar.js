@@ -12,7 +12,7 @@ export default function ProgressBar() {
                     24% Cimplete!</div>
                 <div className={classes.rangeBody}>
                     <div className={classes.progress}
-                        style={{ width: "20 %" }}></div>
+                        style={{ width: "20%" }}></div>
                 </div>
             </div>
             <a href="result.html">

@@ -1,4 +1,4 @@
-import classes from '../styles/Answers.modules.css';
+import classes from '../styles/Answers.module.css';
 import Checkbox from './Checkbox';
 export default function Answers() {
     return (
