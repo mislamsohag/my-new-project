@@ -5,20 +5,12 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Home from "./pages/Home";
 import Result from './pages/Result';
-// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <Layout>
-        <Home />
-        <Signup />
-        <Login />
-        <Quiz />
-        <Result />
-      </Layout>
-
-      {/* <Router>
+      <Router>
         <Layout>
           <Switch>
             <Route exsact path="/" componant={Home} />
@@ -30,7 +22,7 @@ function App() {
           </Switch>
           <Home />
         </Layout>
-      </Router> */}
+      </Router>
     </div>
   );
 }
