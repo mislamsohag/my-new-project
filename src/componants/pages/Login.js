@@ -1,9 +1,9 @@
-import Illustration from "../Illustration";
 import classes from '../../styles/Login.module.css';
-import TextInput from '../TextInput';
 import Button from "../Button";
 import Form from "../Form";
-export default function Loging() {
+import Illustration from "../Illustration";
+import TextInput from '../TextInput';
+export default function Login() {
     return (
         <>
             <h1>Login to your account</h1>

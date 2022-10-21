@@ -13,7 +13,7 @@ export default function Summary() {
             </div>
 
             <div className={classes.badge}>
-                <img src={successImage} alt="Success image" />
+                <img src={successImage} alt="Photo" />
             </div>
         </div>
     )
